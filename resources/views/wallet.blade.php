@@ -2,14 +2,14 @@
 @section('content')
 <div class="dashboard">
     <div class="section portfolio">
-        <h2>Portefeuille</h2>
+        <h2>Wallet</h2>
         @if(Auth::check() && Auth::user()->wallet)
-    <h3>Solde : {{ Auth::user()->wallet->somme }} €</h3>
+    <h3>Amount : {{ Auth::user()->wallet->somme }} €</h3>
 @endif
         <form action="{{ route('approvisionner') }}" method="post">
             @csrf
             <input type="number" name="montant" placeholder="Montant à ajouter">
-            <button type="submit">Approvisionner</button>
+            <button type="submit">Add MONEY</button>
         </form>
         
         <!-- Ajoutez d'autres actions ici -->

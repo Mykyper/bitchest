@@ -19,11 +19,11 @@
     </div>
 
     <div class="form-group">
-        <label for="password">Mot de passe :</label>
+        <label for="password">Password :</label>
         <input id="password" type="password" name="password" required>
     </div>
 
-    <button type="submit">Se connecter</button>
+    <button type="submit">Login</button>
 </form>
 
     @if ($errors->any())

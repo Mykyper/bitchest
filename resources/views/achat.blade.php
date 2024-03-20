@@ -15,10 +15,10 @@
     </div>
 
     <div>
-        <label for="quantite">Quantité:</label>
+        <label for="quantite">Quantity:</label>
         <input type="number" name="quantite" id="quantite" min="1" required>
     </div>
 
-    <button type="submit">Acheter</button>
+    <button type="submit">Buy</button>
 </form>
 @endsection

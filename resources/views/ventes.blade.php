@@ -4,7 +4,7 @@
     @csrf
 
     <div class="form-group">
-        <label for="crypto_achat_id">Sélectionnez l'achat de crypto-monnaie à vendre :</label>
+        <label for="crypto_achat_id">Select what you want to sell:</label>
         <select class="form-control" name="crypto_achat_id" id="crypto_achat_id">
             @foreach ($achats as $achat)
                 <option value="{{ $achat->id }}">{{ $achat->crypto->nom }} - {{ $achat->quantite }}</option>
@@ -12,6 +12,6 @@
         </select>
     </div>
 
-    <button type="submit" class="btn btn-primary">Vendre</button>
+    <button type="submit" class="btn btn-primary">Sell</button>
 </form>
 @endsection

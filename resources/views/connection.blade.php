@@ -22,7 +22,7 @@
     </div>
 
     <div class="form-group">
-        <label for="password">Mot de passe :</label>
+        <label for="password">Password :</label>
         <input id="password" type="password" name="password" required autocomplete="current-password">
         @error('password')
             <span class="text-danger">{{ $message }}</span>

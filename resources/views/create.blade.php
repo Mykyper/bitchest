@@ -22,7 +22,7 @@
     <input type="submit" value="Create">
 </form>
 @if (isset($password))
-    <p>Mot de passe généré aléatoirement : {{ $password }}</p>
+    <p>Random Generated Password: {{ $password }}</p>
 @endif
 
 
