@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/Celias-Regular.ttf');
+}
+body{
+    font-family: 'Celias';
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 300px; /* Hauteur de la carte */
+    width: 300px; /* Largeur de la carte */
+  }
+  
+  .card h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    font-family: 'Celias';
+  }
+  
+  /* Augmentation de la taille des champs de saisie */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group textarea {
+    width: 100%; /* Prend la largeur totale de la carte */
+    padding: 10px; /* Ajout de rembourrage pour plus de visibilité */
+    box-sizing: border-box; /* Inclut la bordure et le rembourrage dans la largeur totale */
+    font-family: 'Celias';
+  }
+  .btn {
+    width: 100%; /* Prend la largeur totale de la carte */
+    padding: 10px; /* Ajout de rembourrage pour plus de visibilité */
+    box-sizing: border-box; /* Inclut la bordure et le rembourrage dans la largeur totale */
+    font-family: 'Celias';
+  }  

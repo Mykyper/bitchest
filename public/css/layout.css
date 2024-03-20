@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/Celias-Regular.ttf');
+  }
+  body{
+    font-family: 'Celias';
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  
+    background-color: #f4f4f4;
+  }
+    
